@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Page</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .admin-container {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      background-color: #3498db;
+      color: #fff;
+    }
+    #home{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #home a{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+#home a:hover {
+  background-color: rgb(162, 156, 156);
+}
+
+  </style>
+</head>
+<body>
+    <div id="home">
+        <a href="index copy.html">Back</a>
+    </div>
+<div class="admin-container">
+  <h2>Transaction History</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>User</th>
+        <th>Amount</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Example row, replace with dynamic data from the database -->
+      <tr>
+        <td>12-5-2023</td>
+        <td>41992022</td>
+        <td>$100.00</td>
+        <td>Completed</td>
+      </tr>
+      <tr>
+        <td>11-05-2023</td>
+        <td>41992022</td>
+        <td>$150.00</td>
+        <td>Completed</td>
+      </tr>
+      <tr>
+        <td>11-3-2023</td>
+        <td>41992022</td>
+        <td>$1000.00</td>
+        <td>Completed</td>
+      </tr>
+      <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
